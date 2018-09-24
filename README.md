@@ -36,7 +36,7 @@ $ cd echo-production-example
 $ fresh
 ```
 
-# LisenceGO111MODULE
+# Lisence
 MIT
 
 # Author
