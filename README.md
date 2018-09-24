@@ -20,6 +20,7 @@ $ go build
 ```
 
 
+
 # Running
 ```
 $ cd echo-production-example
@@ -29,7 +30,7 @@ $ go run main.go
 # Running［fresh］
 [fresh](https://github.com/pilu/fresh)
 
-if you want to use live reloading go.
+if you want to use live reloading.
 ```
 $ cd echo-production-example
 $ fresh
