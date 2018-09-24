@@ -27,8 +27,8 @@ $ go run main.go
 ```
 
 # Running［fresh］
+[https://github.com/pilu/fresh] (fresh)
 
-[fresh] (https://github.com/pilu/fresh)
 if you want to use live reloading go.
 ```
 $ cd echo-production-example
