@@ -41,6 +41,31 @@ $ fresh
 main -> route > facade -> dao
 ```
 
+# HTTP Request Interceptor
+
+http request interceptor before route 
+
+common/intercepter.go
+```
+...
+
+func TraceLogInterceptor() e.MiddlewareFunc {
+	return func(next e.HandlerFunc) e.HandlerFunc {
+		return func(c e.Context) error {
+			/* before processing route execution */
+      
+      //TODO : variable processes.
+      
+			err := next(c)
+			/* after processing route execution */
+
+			return err
+		}
+	}
+...
+```
+
+
 # Lisence
 MIT
 
