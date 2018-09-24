@@ -1,0 +1,27 @@
+mode: "dev"
+
+kind: "mysql"
+
+mssql:
+  server: "localhost"
+  port: 1433
+  user: "hoge"
+  password: "hoge"
+  database: "hoge"
+  setMaxOpenConns: 20
+  setMaxIdleConns: 10
+  setConnMaxLifetime: 0
+  
+mysql:
+  connectionUri: "root:root@tcp(localhost:3306)/hoge?parseTime=true"
+  setMaxOpenConns: 20
+  setMaxIdleConns: 10
+  setConnMaxLifetime: 0
+
+echo:
+  port: ":1323"
+  static: "public"
+
+fluent:
+  path: "./fluent.log"
+  rotate: 1
