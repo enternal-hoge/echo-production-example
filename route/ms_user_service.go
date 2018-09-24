@@ -1,9 +1,9 @@
 package route
 
 import (
-	"echo-production-example/common"
-	"echo-production-example/facade"
-	"echo-production-example/log"
+	"github.com/enternal-hoge/echo-production-example/common"
+	"github.com/enternal-hoge/echo-production-example/facade"
+	"github.com/enternal-hoge/echo-production-example/log"
 
 	"net/http"
 
