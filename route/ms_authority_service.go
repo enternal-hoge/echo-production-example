@@ -3,7 +3,7 @@ package route
 import (
 	"net/http"
 
-	"echo-production-example/facade"
+	"github.com/enternal-hoge/echo-production-example/facade"
 
 	"github.com/labstack/echo"
 )
