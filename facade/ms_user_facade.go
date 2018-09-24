@@ -1,11 +1,11 @@
 package facade
 
 import (
-	"echo-production-example/common"
-	"echo-production-example/dao"
-	ext "echo-production-example/external"
-	"echo-production-example/log"
-	"echo-production-example/model"
+	"github.com/enternal-hoge/echo-production-example/common"
+	"github.com/enternal-hoge/echo-production-example/dao"
+	ext "github.com/enternal-hoge/echo-production-example/external"
+	"github.com/enternal-hoge/echo-production-example/log"
+	"github.com/enternal-hoge/echo-production-example/model"
 )
 
 var appLog *log.AppLogger
