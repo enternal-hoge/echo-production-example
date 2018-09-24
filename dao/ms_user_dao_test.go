@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"echo-production-example/common"
-	"echo-production-example/model"
+	"github.com/enternal-hoge/echo-production-example/common"
+	"github.com/enternal-hoge/echo-production-example/model"
 	"fmt"
 	"testing"
 
