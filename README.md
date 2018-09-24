@@ -14,11 +14,11 @@ set environment variables.
 GO111MODULE=on
 ```
 
+on first build, down load dependency modules automatically.
 ```
 $ cd echo-production-example
 $ go build
 ```
-
 
 
 # Running
@@ -34,6 +34,11 @@ if you want to use live reloading.
 ```
 $ cd echo-production-example
 $ fresh
+```
+
+# Structure
+```
+main -> route > facade -> dao
 ```
 
 # Lisence
