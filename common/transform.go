@@ -1,7 +1,7 @@
 package common
 
 import (
-	"echo-production-example/log"
+	"github.com/enternal-hoge/echo-production-example/log"
 	"encoding/json"
 	"io"
 	"io/ioutil"
