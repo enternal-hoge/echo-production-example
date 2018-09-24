@@ -1,9 +1,9 @@
 package dao
 
 import (
-	"echo-production-example/common"
-	"echo-production-example/log"
-	"echo-production-example/model"
+	"github.com/enternal-hoge/echo-production-example/common"
+	"github.com/enternal-hoge/echo-production-example/log"
+	"github.com/enternal-hoge/echo-production-example/model"
 
 	"github.com/tidwall/gjson"
 )
