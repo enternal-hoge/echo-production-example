@@ -1,7 +1,7 @@
 package facade
 
 import (
-	"echo-production-example/dao"
+	"github.com/enternal-hoge/echo-production-example/dao"
 	"fmt"
 )
 
