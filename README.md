@@ -43,28 +43,36 @@ main -> route > facade -> dao
 
 # HTTP Request Interceptor
 
-http request interceptor before route 
+http request interceptor use echo middleware.
 
 common/intercepter.go
 ```
 ...
 
 func TraceLogInterceptor() e.MiddlewareFunc {
-	return func(next e.HandlerFunc) e.HandlerFunc {
-		return func(c e.Context) error {
-			/* before processing route execution */
-      
-      //TODO : variable processes.
-      
-			err := next(c)
-			/* after processing route execution */
+  return func(next e.HandlerFunc) e.HandlerFunc {
+    return func(c e.Context) error {
+    /* before processing route execution */
+    
+    //TODO : variable processes.
+    
+    err := next(c)
 
-			return err
-		}
-	}
+    /* after processing route execution */
+    return err
+  }
+}
 ...
 ```
 
+# Log
+
+Logging is not use echo stanadard log log library.
+
+this application use [onelog](https://github.com/francoispqt/onelog)
+
+[zap](https://github.com/uber-go/zap) is famous and fast log library,
+zap is too match functions, but It is not neccesary for me.
 
 # Lisence
 MIT
