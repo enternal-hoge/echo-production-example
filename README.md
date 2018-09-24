@@ -74,6 +74,11 @@ this application use [onelog](https://github.com/francoispqt/onelog)
 [zap](https://github.com/uber-go/zap) is famous and fast log library,
 zap is too match functions, but It is not neccesary for me.
 
+# ToDo
++ Error handling standardization has not been completed.
++ implimentation change the type of database is not completed.
++ SQL 'in' example code.
+
 # Lisence
 MIT
 
