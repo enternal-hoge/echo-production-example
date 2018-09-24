@@ -1,9 +1,9 @@
 package main
 
 import (
-	"echo-production-example/common"
-	"echo-production-example/log"
-	"echo-production-example/route"
+	"github.com/enternal-hoge/echo-production-example/common"
+	"github.com/enternal-hoge/echo-production-example/log"
+	"github.com/enternal-hoge/echo-production-example/route"
 
 	"github.com/labstack/echo"
 	"github.com/spf13/viper"
